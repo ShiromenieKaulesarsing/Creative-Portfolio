@@ -186,4 +186,17 @@
     background-color: #0a25b5;
     transform: scale(1.05);
   }
-  
+
+  h5 {
+    font-size: 55px;
+  }
+
+  .main {
+    background-image: image(assets/img/about-visual.png);
+    background-size: cover; /* De afbeelding bedekt de hele sectie */
+    background-position: center center;
+    color: white; /* Zorg ervoor dat de tekst leesbaar is */
+    padding: 50px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  }
